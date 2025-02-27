@@ -27,17 +27,11 @@ class HomePage extends StatefulWidget {
 
 /// 首页状态管理类
 class _HomePageState extends State<HomePage> {
-  /// 新闻服务实例
   final NewsService _newsService = NewsService();
-
-  /// 加载状态标志
   bool _isLoading = true;
-
-  /// 错误信息
   String _errorMessage = '';
-
-  /// 当前显示的新闻数据
   DailyNews? _dailyNews;
+  bool _isRefreshing = false;
 
   /// 组件初始化
   /// 在组件创建时加载新闻数据

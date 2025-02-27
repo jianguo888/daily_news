@@ -66,3 +66,27 @@ lib/
 ## 联系方式
 - GitHub Issues：如有任何问题或建议，请通过Issue与我们联系
 - 微信公众号：关注公众号「nutpi」获取最新动态
+
+
+
+## 效果图
+
+mac：
+
+![image-20250227112201738](https://nutpi-e41b.obs.cn-north-4.myhuaweicloud.com/image-20250227112201738.png)
+
+
+
+安卓
+
+
+
+![image-20250227112349667](https://nutpi-e41b.obs.cn-north-4.myhuaweicloud.com/image-20250227112349667.png)
+
+
+
+
+
+## 参考
+
+https://gitcode.com/openharmony-sig/flutter_packages
