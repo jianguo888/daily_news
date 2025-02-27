@@ -20,7 +20,9 @@ class NewsService {
   static const String baseUrl = 'https://v3.alapi.cn/api/zaobao';
 
   /// API访问令牌
-  static const String token = 'ycd0krwbhl5v2w6iafblj94y5vzqdj';
+  /// 从环境变量获取token，避免将敏感信息提交到代码仓库
+  static String get token =>
+      const String.fromEnvironment('API_TOKEN', defaultValue: '');
 
   /// 获取每日新闻
   ///
