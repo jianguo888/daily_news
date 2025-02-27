@@ -10,9 +10,9 @@ Daily News是一个基于Flutter开发的跨平台新闻阅读应用，为用户
 - 响应式设计：适配不同设备屏幕尺寸
 
 ## 环境要求
-- Flutter SDK
-- Dart SDK
-- Android Studio / VS Code
+- Flutter SDK 3.21.0或更高版本
+- Dart SDK 2.19.0或更高版本
+- Android Studio / Trae
 - DevEco Studio（用于HarmonyOS开发）
 - 对应平台的开发环境配置
 

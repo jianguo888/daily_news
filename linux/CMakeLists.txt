@@ -9,6 +9,9 @@ set(BINARY_NAME "daily_news")
 # https://wiki.gnome.org/HowDoI/ChooseApplicationID
 set(APPLICATION_ID "com.example.daily_news")
 
+# Configure application icon
+set(FLUTTER_ICON "${CMAKE_CURRENT_SOURCE_DIR}/flutter/assets/icon.png")
+
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.
 cmake_policy(SET CMP0063 NEW)
